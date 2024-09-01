@@ -12,6 +12,16 @@ public class Main {
 
         System.out.println("Ange användarnamn: ");
         String username = scanner.nextLine();
+
+        if(username.length() > 5) {
+            System.out.print("Ange produktnamn och spara i variabeln prodA: ");
+            String prodA = scanner.nextLine();
+
+            System.out.print("Ange pris: ");
+            int price = scanner.nextInt();
+
+            
+        }
     }
 
 
