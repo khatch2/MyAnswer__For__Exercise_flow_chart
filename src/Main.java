@@ -10,7 +10,8 @@ public class Main {
         int[] products = new int[3];
         int loop = 0;
 
-        System.out.println(" Jesus † Christ ");
+        System.out.println("Ange användarnamn: ");
+        String username = scanner.nextLine();
     }
 
 
