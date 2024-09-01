@@ -28,7 +28,11 @@ public class Main {
                 while (loop <= 2) {
                     System.out.print("Ange en siffra: ");
                     int siffra = scanner.nextInt();
-                    products[siffra] = price;
+                    if (siffra <= 0 && siffra <= 2) {
+                        products[siffra] = price;
+                    } else {
+                        System.out.println("Ogiltig siffra. Ange en siffra mellan 0 och 2.");
+                    }
                     loop++;
                 }
 
@@ -40,7 +44,9 @@ public class Main {
             }
 
 
-        } else {}
+        } else {
+            System.out.println("Användarnamnet måste vara längre än 5 tecken.");
+        }
     }
 
 
