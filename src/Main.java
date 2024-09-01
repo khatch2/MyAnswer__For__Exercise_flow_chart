@@ -5,10 +5,13 @@ import java.util.Scanner;
  * */
 
 public class Main {
-    Scanner scanner = new Scanner(System.in);
-    int[] products = new int[3];
-    int loop = 0;
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int[] products = new int[3];
+        int loop = 0;
 
-    //System.out.println();
+        System.out.println(" Jesus † Christ ");
+    }
+
 
 }
